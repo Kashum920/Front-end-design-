@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!---- Title -->
+    <title>Home Page - Coffee Shop Website</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!---- Customer Css File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!---- Navbar start ---->
+    <div class="header">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="image"></a>
+        </div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a>
+                <ul class="drop-down">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Products</a>
+                <ul class="drop-down">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a>
+                <ul class="drop-down">
+                    <li><a href="#">Blog One Column</a></li>
+                    <li><a href="#">Blog Two Column</a></li>
+                    <li><a href="#">Blog Three Column</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Gallery</a>
+                <ul class="drop-down">
+                    <li><a href="#">Gallery 1-Column</a></li>
+                    <li><a href="#">Gallery 2 Column</a></li>
+                    <li><a href="#">Gallery 3 Column</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pages</a></li>
+            
+            <i class="fa-solid fa-x" id="close"></i>
+        </ul>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-search"></i>
+            <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+    </div>
+
+    <!---- Navbar ends ---->
+    <!---- Home start ---->
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="info">
+                        <h1>Espresso bar</h1>
+                        <h3>coffee news</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque obcaecati impedit possimus hic recusandae esse, magnam minima voluptatem architecto.</p>
+
+                        <button class="black">Raed more</button>
+                        <button class="brown">Coffee bean</button>
+                    </div>
+                    <img src="img/home-1.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="info">
+                        <h1>Online store</h1>
+                        <h3>your market</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque obcaecati impedit possimus hic recusandae esse, magnam minima voluptatem architecto.</p>
+
+                        <button class="brown">View products</button>
+                        <button class="black">Raed more</button>
+                    </div>
+                    <img src="img/home-2.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="info">
+                        <h1>Coffee market</h1>
+                        <h3>online store</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam itaque obcaecati impedit possimus hic recusandae esse, magnam minima voluptatem architecto.</p>
+
+                        <button class="black">Raed more</button>
+                        <button class="brown">View products</button>
+                    </div>
+                    <img src="img/home-3.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+    <!---- Home ends ---->
+
+    <!---- About start ---->
+    <section class="about">
+        <div class="about-row">
+            <div class="about-col-1">
+                <h6>Who we are</h6>
+                <h2>About market</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eaque, quasi, odit commodi nisi omnis dolor minus eum obcaecati ut ea hic neque harum corrupti sequi dignissimos? Eius, beatae recusandae!</p>
+                <img src="img/sign.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <div class="col-1">
+                    <img src="img/about-icon-1.png" alt="">
+                    <h3>The best world sorts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-1">
+                    <img src="img/about-icon-2.png" alt="">
+                    <h3>Many points of sale</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-1">
+                    <img src="img/about-icon-3.png" alt="">
+                    <h3>Proffesional baristas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-1">
+                    <img src="img/about-icon-4.png" alt="">
+                    <h3>24/7 fast delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---- About ends ---->
+
+    <!---- Products start ---->
+    <section class="products">
+        <h6>Who we are</h6>
+        <h2>Product market</h2>
+
+        <div class="items">
+            <button>Coffee</button>
+            <button>Green coffee</button>
+            <button>Roasted coffee</button>
+            <button>Italian</button>
+        </div>
+
+        <div class="product-row">
+            <div class="product-col">
+                <div class="swiper myProducts">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                            <img src="img/c-1.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-2.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-3.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-4.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-5.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-6.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-7.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                        <div class="swiper-slide slide">
+                            <img src="img/c-5.jpg" alt="">
+                            <h4>Ephiopian Aroma</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <span>$12.00</span>
+                            <button><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#">View all products</a>
+            </div>
+        </div>
+    </section>
+    
+    <!---- Products ends ---->
+
+    <!---- Sales start ---->
+    <section class="sales">
+        <div class="sales-row">
+            <div class="sales-col-one">
+                <h1>Sale and delivery <br> points</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi repellendus debitis eveniet, enim, ipsum minus odit nisi magnam suscipit fugiat qui nesciunt ipsa quae aperiam culpa vero optio voluptatibus modi!</p>
+                <h4>Where buy our coffee:</h4>
+                <div class="location">
+                    <p>Canada <span>(23)</span></p>
+                    <p>Brazil <span>(96)</span></p>
+                    <p>Russia <span>(2)</span></p>
+                    <p>USA <span>(67)</span></p>
+                    <p>Argentina <span>(43)</span></p>
+                    <p>Asia <span>(41)</span></p>
+                    <p>Mexico <span>(10)</span></p>
+                    <p>Europe <span>(35)</span></p>
+                    <p>Austrailia <span>(71)</span></p>
+                </div>
+                <a href="#">View all points</a>
+            </div>
+            <div class="sales-col-two">
+                <img src="img/map.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!---- Sales ends ---->
+
+    <!---- dealer start ---->
+    <section class="dealer">
+        <div class="dealer-row">
+            <div class="dealer-col-one">
+                <img src="img/dealer.png" alt="">
+                <div class="info">
+                    <h5>More than</h5>
+                    <h3>500</h3>
+                    <h4>cusomers <br> trust us</h4>
+                </div>
+            </div>
+            <div class="dealer-col-two">
+                <h1>Beacome our dealer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad sint facilis! Eum, adipisci ea? Iste iure beatae voluptatem voluptate amet voluptas harum, quibusdam, quo laborum, repellat blanditiis consequatur dolor.</p>
+                <button class="become">Become a dealer</button>
+                <button class="contact">Contact us</button>
+            </div>
+        </div>
+    </section>
+
+    <!---- dealer ends ---->
+
+    <!---- testimonial start ---->
+    <div class="testimonial">
+        <h4>our clients say</h4>
+        <h1>Testimonials</h1>
+
+        <div class="swiper myTestimonial">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h6>Anastasia Stone</h6>
+                    <span>developer</span>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse, sint recusandae rem optio hic voluptates corporis saepe aperiam quidem nobis fuga placeat aliquid similique provident commodi perferendis laboriosam impedit!</p>
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                </div>
+                <div class="swiper-slide slide">
+                    <h6>Anastasia Stone</h6>
+                    <span>developer</span>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse, sint recusandae rem optio hic voluptates corporis saepe aperiam quidem nobis fuga placeat aliquid similique provident commodi perferendis laboriosam impedit!</p>
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                </div>
+                <div class="swiper-slide slide">
+                    <h6>Anastasia Stone</h6>
+                    <span>developer</span>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse, sint recusandae rem optio hic voluptates corporis saepe aperiam quidem nobis fuga placeat aliquid similique provident commodi perferendis laboriosam impedit!</p>
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+    
+    <!---- testimonial ends ---->
+
+    <!---- brand start ---->
+    <section class="brand">
+        <img src="img/b-1.png" alt="">
+        <img src="img/b-2.png" alt="">
+        <img src="img/b-3.png" alt="">
+        <img src="img/b-4.png" alt="">
+        <img src="img/b-5.png" alt="">
+        <img src="img/b-6.png" alt="">
+    </section>
+    <!---- brand ends ---->
+
+    <!---- offer start ---->
+    <section class="offer">
+        <div class="offer-row">
+            <div class="offer-col-one">
+                <h5>Special offer</h5>
+                <h1>Get your discount</h1>
+                <img src="img/card.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aperiam inventore esse voluptatem. Rem unde quos maiores ratione consequuntur non, excepturi, in aliquam qui delectus praesentium magnam nemo incidunt dolorem.</p>
+                <button>Get now</button>
+            </div>
+            <div class="offer-col-two">
+                <img src="img/offer-side.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!---- offer ends ---->
+
+    <!---- blog start ---->
+    <section class="blog">
+        <h6>our blog</h6>
+        <h1>Recent posts</h1>
+        <div class="blog-row">
+            <div class="blog-col">
+                <div class="image">
+                    <img src="img/blog-1.jpg" alt="">
+                </div>
+                <h3>History of coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, magni voluptate in quos saepe ratione eligendi minima maxime aspernatur tempora?</p>
+                <div class="date">
+                    <p><span>(25)</span>March 2024</p>
+                    <div class="message">
+                        <span><i class="fa-solid fa-eye"></i>2,279</span>
+                        <span><i class="fa-regular fa-message-middle"></i>0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-col">
+                <div class="image">
+                    <img src="img/blog-2.jpg" alt="">
+                </div>
+                <h3>History of coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, magni voluptate in quos saepe ratione eligendi minima maxime aspernatur tempora?</p>
+                <div class="date">
+                    <p><span>(25)</span>March 2024</p>
+                    <div class="message">
+                        <span><i class="fa-solid fa-eye"></i>2,279</span>
+                        <span><i class="fa-regular fa-message-middle"></i>0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-col">
+                <div class="image">
+                    <img src="img/blog-3.jpg" alt="">
+                </div>
+                <h3>History of coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, magni voluptate in quos saepe ratione eligendi minima maxime aspernatur tempora?</p>
+                <div class="date">
+                    <p><span>(25)</span>March 2024</p>
+                    <div class="message">
+                        <span><i class="fa-solid fa-eye"></i>2,279</span>
+                        <span><i class="fa-regular fa-message-middle"></i>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button>read more</button>
+    </section>
+    <!---- blog ends ---->
+
+    <!---- footer start ---->
+    <section class="subscribe">
+        <div class="col-1">
+            <h3>Subscribe</h3>
+            <h4>Weekly newsletter</h4>
+        </div>
+        <div class="col-2">
+            <input type="text" placeholder="Your email address">
+            <button>Subscribe</button>
+        </div>
+        <div class="col-3">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="img/logo_white-7.png" alt="">
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi ab fugiat in distinctio ea sed amet, ad sapiente ipsa consequatur qui? Dolorum delectus amet, voluptas cumque dolor laborum harum cupiditate.
+                </p>
+                <button>Purchese Now</button>
+            </div>
+            <div class="footer-col">
+                <h3>Explore</h3>
+                <div class="links">
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Home</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Products</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Blog</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>About Us</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Gallery</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contact us</h3>
+                <p><i class="fa-solid fa-location-dot"></i>44 Danwers, NY City, USA, 70-102</p>
+                <p><i class="fa-solid fa-phone"></i>+95 678 5670</p>
+                <p><i class="fa-solid fa-envelope"></i>info@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-dollar-sign"></i>mycoffeeshop</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; All Right Reserved By CodeSlaves Design</p>
+        </div>
+    </div>
+    
+    <!---- footer ends ---->
+
+    <!---- Swiper demo js ---->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!---- Customer Js File ---->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
